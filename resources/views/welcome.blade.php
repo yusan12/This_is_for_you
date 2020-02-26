@@ -19,7 +19,7 @@
 
     <div>
             @if (Route::has('login'))
-                <div class="top-right links">
+                <div class="top-right links" style="z-index: 100;">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
@@ -35,7 +35,7 @@
         </div>
 
     <div class="card">
-  <img class="card-img w-30" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582653281/LP/photo-1474674686577-219e8d77f55f_fge46n.jpg" alt="Card image">
+<img class="card-img w-30" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582653281/LP/photo-1474674686577-219e8d77f55f_fge46n.jpg" alt="Card image">
 <div class="card-img-overlay d-flex align-items-top">
     <p class="card-text1">大切なあの人に贈ろう</p>
     <div class="card-img-overlay d-flex align-items-center">
@@ -43,11 +43,17 @@
 </div>
 <div class="card-img-overlay d-flex align-items-end">
     <p class="card-text3">This is for you</p>
-</div>
-  </div>
+
+    <div container="box">
 </div>
 
-       
+
+
+
+</div>
+</div>
+</div>
+
 
         <!-- <photo1表示> -->
 

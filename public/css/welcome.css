@@ -139,6 +139,7 @@ h5 {
         font-size: 200px;
         position: relative;
         height: 30px;
+        top: 50;
       }
 
       .card {
@@ -147,3 +148,7 @@ h5 {
 
       .py-4 text-center {
       }
+
+    .box {
+
+    }
