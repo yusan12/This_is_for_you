@@ -32,13 +32,13 @@ Route::get('/photos', 'PagesController@photos')->name('photos');
 
 
 
-Route::resource('photos', 'photosController');
+Route::resource('photos', 'PhotosController');
 
-Route::resource('postcards', 'postcardsController');
+Route::resource('postcards', 'PostcardsController');
 
-Route::get('/confirm', 'postcardsController@confirm')->name('postcards.confirm');
+Route::get('/confirm', 'PostcardsController@confirm')->name('postcards.confirm');
 
-Route::get('/show', 'postcardsController@show')->name('postcards.show');
+Route::get('/show', 'PostcardsController@show')->name('postcards.show');
 
 Route::get('postcards/{id}/edit', 'PostcardsController@edit');  // 追加
 Route::patch('postcards/{id}', 'PostcardsController@update');
