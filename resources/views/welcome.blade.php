@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
-    <!-- <div class="card mb-3"> -->
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +9,6 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        
         <link href="css/welcome.css" rel="stylesheet">
 
 
@@ -19,7 +17,7 @@
     </head>
     <body>
 
-    <div class="flex-center position-ref full-height">
+    <div>
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -34,14 +32,7 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    This is for you
-                </div>
-            </div>
         </div>
-
-
 
     <div class="card">
   <img class="card-img w-30" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582653281/LP/photo-1474674686577-219e8d77f55f_fge46n.jpg" alt="Card image">
@@ -50,9 +41,9 @@
     <div class="card-img-overlay d-flex align-items-center">
     <p class="card-text2 mt-5">世界にひとつだけのポストカード</p>
 </div>
-</div>
 <div class="card-img-overlay d-flex align-items-end">
     <p class="card-text3">This is for you</p>
+</div>
   </div>
 </div>
 
