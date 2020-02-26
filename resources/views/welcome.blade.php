@@ -18,20 +18,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
     <body>
-    <div class="card">
-  <img class="card-img w-30" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582653281/LP/photo-1474674686577-219e8d77f55f_fge46n.jpg" alt="Card image">
-<div class="card-img-overlay d-flex align-items-top">
-    <p class="card-text1">大切なあの人に贈ろう</p>
-    <div class="card-img-overlay d-flex align-items-center">
-    <p class="card-text2 mt-5">世界にひとつだけのポストカード</p>
-</div>
-</div>
-<div class="card-img-overlay d-flex align-items-end">
-    <p class="card-text3">This is for you</p>
-  </div>
-</div>
 
-        <div class="flex-center position-ref full-height">
+    <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -48,10 +36,27 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    
+                    This is for you
                 </div>
             </div>
         </div>
+
+
+
+    <div class="card">
+  <img class="card-img w-30" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582653281/LP/photo-1474674686577-219e8d77f55f_fge46n.jpg" alt="Card image">
+<div class="card-img-overlay d-flex align-items-top">
+    <p class="card-text1">大切なあの人に贈ろう</p>
+    <div class="card-img-overlay d-flex align-items-center">
+    <p class="card-text2 mt-5">世界にひとつだけのポストカード</p>
+</div>
+</div>
+<div class="card-img-overlay d-flex align-items-end">
+    <p class="card-text3">This is for you</p>
+  </div>
+</div>
+
+       
 
         <!-- <photo1表示> -->
 
