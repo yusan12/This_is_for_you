@@ -34,6 +34,17 @@
 
         </div>
 
+        <!-- <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">こんにちは</div>
+                <div class="col-md-6">こんばんは</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">hello</div>
+                <div class="col-md-10">good</div>
+            </div>
+        </div> -->
+
     <div class="card">
 <img class="card-img w-30" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582653281/LP/photo-1474674686577-219e8d77f55f_fge46n.jpg" alt="Card image">
 <div class="card-img-overlay d-flex align-items-top">
@@ -57,7 +68,7 @@
 
         <!-- <photo1表示> -->
 
-        <div class="text-center">
+        <div class="text-center mt250">
         <img class="photo1 w-50" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582543256/LP/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.19.04_cvjc6a.png">
         </div>
 
