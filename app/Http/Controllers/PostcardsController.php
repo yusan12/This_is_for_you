@@ -87,7 +87,7 @@ class PostcardsController extends Controller
             // 直前にアップロードした画像のユニークIDを取得します。
             $publicId = Cloudder::getPublicId();
             // URLを生成します
-            $photoUrl = Cloudder::show($publicId, [
+            $photoUrl = Cloudder::secureShow($publicId, [
                 'width'     => $width,
                 'height'    => $height
             ]);
