@@ -60,3 +60,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('postcard/create', 'PostcardController@create');
 
 Route::post('postcard', 'PostcardController@store');
+
+Route::get('login/google', 'Auth\LoginController@redirectToGoogle');
+Route::get('login/google/callback', 'Auth\LoginController@handleGoogleCallback');
