@@ -925,61 +925,54 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com",
+                    "role": "Lead Developer"
                 }
             ],
-            "description": "Laravel UI utilities and presets.",
+            "description": "PHP Markdown parser based on the CommonMark spec",
+            "homepage": "https://commonmark.thephpleague.com",
             "keywords": [
-                "laravel",
-                "ui"
+                "commonmark",
+                "markdown",
+                "parser"
             ],
-            "time": "2020-02-13T21:12:28+00:00"
+            "time": "2020-01-16T01:18:13+00:00"
         },
         {
-            "name": "laravelcollective/html",
-            "version": "v6.0.3",
+            "name": "league/commonmark-ext-table",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/LaravelCollective/html.git",
-                "reference": "bcc317d21a7e04eebcc81c4109fa84feaab63590"
+                "url": "https://github.com/thephpleague/commonmark-ext-table.git",
+                "reference": "3228888ea69636e855efcf6636ff8e6316933fe7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/bcc317d21a7e04eebcc81c4109fa84feaab63590",
-                "reference": "bcc317d21a7e04eebcc81c4109fa84feaab63590",
+                "url": "https://api.github.com/repos/thephpleague/commonmark-ext-table/zipball/3228888ea69636e855efcf6636ff8e6316933fe7",
+                "reference": "3228888ea69636e855efcf6636ff8e6316933fe7",
                 "shasum": ""
             },
             "require": {
-                "illuminate/http": "^6.0",
-                "illuminate/routing": "^6.0",
-                "illuminate/session": "^6.0",
-                "illuminate/support": "^6.0",
-                "illuminate/view": "^6.0",
-                "php": ">=7.2"
+                "league/commonmark": "~0.19.3|^1.0",
+                "php": "^7.1"
             },
             "require-dev": {
-                "illuminate/database": "^6.0",
-                "mockery/mockery": "~1.0",
-                "phpunit/phpunit": "~7.1"
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "phpstan/phpstan": "~0.11",
+                "phpunit/phpunit": "^7.0|^8.0",
+                "symfony/var-dumper": "^4.0",
+                "vimeo/psalm": "^3.0"
             },
-            "type": "library",
+            "type": "commonmark-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.0-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Collective\\Html\\HtmlServiceProvider"
-                    ],
-                    "aliases": {
-                        "Form": "Collective\\Html\\FormFacade",
-                        "Html": "Collective\\Html\\HtmlFacade"
-                    }
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -989,6 +982,8 @@
                 "files": [
                     "src/helpers.php"
                 ]
+                    "League\\CommonMark\\Ext\\Table\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
