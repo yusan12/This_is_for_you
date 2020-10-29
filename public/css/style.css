@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+img {
+  width: 300px!important;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+h1 {
+  font-size: 200%;
+  margin-bottom: 4.5rem;
+  margin-top: 4.5rem;
+}
+
+h2 {
+  font-size: 150%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+.how to {
+  margin: 112px;
+  font-size: 43px;
+  }
+
+
+
+
+
+h4, h4 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+h5 {
+  margin-top: 30px;
+}
+
+
+
+.p-3 mb-2 bg-danger {
+
+}
+
+.bgstyle {
+  margin: auto;
+  width: 400px;
+}
+
+.font-big {
+  font-size: 30px;
+  
+}
+
+.mb-2, .my-2 {
+  margin-bottom: 4.5rem!important;
+}
+
+.pt-4, .py-4 {
+  padding-top: 5.5rem!important;
+}
+
+.bg-white {
+  background-color: #a5f7ef!important;
+}
+
+.photo1 {
+    width: 100%;
+  }
+
+div {text-align:center;}
+
+image photo3 {
+  width: 300%;
+  text-align: center;
+
+}
+
+.moji1 {
+  padding-top: 172px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.title m-b-md {
+  text-align: center;
+}
+

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Middleware\ForyouMiddleware;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,5 +14,52 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/welcome');
 });
+
+
+Route::get('/starter', function () {
+    return view('/starter');
+});
+
+
+Auth::routes();
+
+
+Route::get('/postcards', 'PagesController@postcards')->name('postcards');
+
+Route::get('/photos', 'PagesController@photos')->name('photos');
+
+
+
+Route::resource('photos', 'PhotosController');
+
+Route::resource('postcards', 'PostcardsController');
+
+Route::get('/confirm', 'PostcardsController@confirm')->name('postcards.confirm');
+
+Route::get('/show', 'PostcardsController@show')->name('postcards.show');
+
+Route::get('postcards/{id}/edit', 'PostcardsController@edit');  // 追加
+Route::patch('postcards/{id}', 'PostcardsController@update');
+Route::delete('postcards/{id}', 'PostcardsController@destroy');
+
+Route::get('/index', 'PostcardsController@index')->middleware(ForyouMiddleware::class)->name('index');
+
+// Route::get('/', 'photosController@index');
+Route::post('/', 'photosController@store')->name('photos.store');
+
+
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('postcard/create', 'PostcardController@create');
+
+Route::post('postcard', 'PostcardController@store');
+
+Route::get('login/google', 'Auth\LoginController@redirectToGoogle');
+Route::get('login/google/callback', 'Auth\LoginController@handleGoogleCallback');
