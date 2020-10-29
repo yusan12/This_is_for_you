@@ -66,7 +66,7 @@ class PhotosController extends Controller
         //saveメソッドが呼ばれると新しいレコードがデータベースに挿入される
         $postcard->save();
 
-        $logoUrl = Cloudder::show($publicId, [
+        $logoUrl = Cloudder::secureShow($publicId, [
             'width'     => $width,
             'height'    => $height
         ]);

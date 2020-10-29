@@ -46,7 +46,8 @@
         </div> -->
 
     <div class="card">
-<img class="card-img w-30" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582653281/LP/photo-1474674686577-219e8d77f55f_fge46n.jpg" alt="Card image">
+<img class="card-img w-30" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1595080654/photo-1474674686577-219e8d77f55f_fge46n_mqcgrt.jpg" alt="Card image">
+
 <div class="card-img-overlay d-flex align-items-top">
     <p class="card-text1">大切なあの人に贈ろう</p>
     <div class="card-img-overlay d-flex align-items-center">
@@ -69,15 +70,15 @@
         <!-- <photo1表示> -->
 
         <div class="text-center mt250">
-        <img class="photo1 w-50" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582543256/LP/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.19.04_cvjc6a.png">
+        <img class="photo1 w-50" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1595133922/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.19.04_cvjc6a_eglfdk.png">
         </div>
 
         <!-- <photo表示> -->
 
         <div class="text-center mt-5">
-            <img class="photo2 w-25" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582543260/LP/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.10.40_baywmi.png">
+            <img class="photo2 w-25" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1595133918/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.10.40_baywmi_kxjldb.png">
 
-            <img class="photo2 w-25" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582543229/LP/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.37.22_jpilrv.png">
+            <img class="photo2 w-25" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1595133931/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.37.22_jpilrv_nbzszv.png">
         </div>
 
         <div class="moji1 text-center">
@@ -86,7 +87,7 @@
         <!-- <h2>How to Make?</h2> -->
 
         <div style="text-align: center;">
-        <img class="make1 w-50" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582639672/LP/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-25_21.04.08_mwqon0.png" alt="">
+        <img class="make1 w-50" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1595133898/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-25_21.04.08_mwqon0_dti9xo.png" alt="">
         </div>
 
         <div class="moji2 text-center">
@@ -94,7 +95,7 @@
         </div>
 
         <div class="text-center">
-        <img class="make2 w-25" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582560523/LP/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_23.08.24_txo6o0.png" alt="">
+        <img class="make2 w-25" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1595133909/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_23.08.24_txo6o0_ksmmso.png" alt="">
         </div>
 
         <div class="moji2 text-center">
@@ -108,7 +109,7 @@
 
 
         <div class="text-center">
-        <img class="w-50" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1582543247/LP/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.25.20_qeg9cm.png" alt="">
+        <img class="w-50" src="https://res.cloudinary.com/dsnycibuw/image/upload/v1595133927/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2020-02-24_14.25.20_qeg9cm_pruka3.png" alt="">
 
 
         </div>
