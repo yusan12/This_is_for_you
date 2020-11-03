@@ -154,7 +154,13 @@ return [
       |
     */
 
-    'attributes' => [],
-
+    'attributes' => [
+        'email'=>'メールアドレス',
+        'password'=>'パスワード',
+        'title'=>'タイトル',
+        'description'=>'内容',
+        'rink'=>'リンク', 
+        'message'=>'メッセージ',
+    ],
 ];
 
