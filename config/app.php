@@ -177,8 +177,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         JD\Cloudder\CloudderServiceProvider::class,
-        
-
+        Laravel\Socialite\SocialiteServiceProvider::class,
     ],
 
     /*
