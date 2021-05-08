@@ -63,3 +63,11 @@ Route::post('postcard', 'PostcardController@store');
 
 Route::get('login/google', 'Auth\LoginController@redirectToGoogle');
 Route::get('login/google/callback', 'Auth\LoginController@handleGoogleCallback');
+
+Route::get('/form', "SampleFormController@show")->name("form.show");
+Route::post('/form', "SampleFormController@post")->name("form.post");
+
+Route::get('/form/confirm', "SampleFormController@confirm")->name("form.confirm");
+Route::post('/form/confirm', "SampleFormController@send")->name("form.send");
+
+Route::get('/form/thanks', "SampleFormController@complete")->name("form.complete");
