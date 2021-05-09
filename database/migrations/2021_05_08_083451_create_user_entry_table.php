@@ -15,6 +15,8 @@ class CreateUserEntryTable extends Migration
     {
         Schema::create('user_entry', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('title');	//タイトル
+			$table->string('body');	//本文
             $table->timestamps();
         });
     }
