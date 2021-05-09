@@ -93,3 +93,15 @@ Route::group(['middleware' => ['auth.admin']], function () {
 //管理側ログイン
 Route::get('/admin/login', 'admin\AdminLoginController@showLoginform');
 Route::post('/admin/login', 'admin\AdminLoginController@login');
+
+Route::get('/form',
+	[App\Http\Controllers\UploadImageController::class, "show"]
+	)->name("upload_form");
+
+Route::post('/upload',
+	[App\Http\Controllers\UploadImageController::class, "upload"]
+	)->name("upload_image");
+
+Route::get('/list',
+[App\Http\Controllers\ImageListController::class, "show"]
+)->name("image_list");
