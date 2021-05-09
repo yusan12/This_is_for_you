@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\UserEntry;
 class UserEntrySeeder extends Seeder
 {
     /**
@@ -11,9 +11,9 @@ class UserEntrySeeder extends Seeder
      */
     public function run()
     {
-        DB::table('user_entry')->insert([
-           'title' => "ダミータイトル",
-           'body' => "ダミー本文です",
-       ]);
+        UserEntry::create([
+			"title" => "UserEntryクラスで作成したtitle",
+			"body" => "UserEntryクラスで作成したbody"
+		]);
     }
 }

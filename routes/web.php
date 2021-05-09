@@ -71,3 +71,7 @@ Route::get('/form/confirm', "SampleFormController@confirm")->name("form.confirm"
 Route::post('/form/confirm', "SampleFormController@send")->name("form.send");
 
 Route::get('/form/thanks', "SampleFormController@complete")->name("form.complete");
+
+Route::get('/user_entry', "UserEntryController@index");
+
+Route::get('/user_entry/{id}', "UserEntryController@detail");
