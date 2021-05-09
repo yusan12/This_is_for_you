@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Middleware\ForyouMiddleware;
+use App\Http\Controllers\WeightGraphController;
 
 /*
 |--------------------------------------------------------------------------
@@ -105,3 +106,6 @@ Route::post('/upload',
 Route::get('/list',
 [App\Http\Controllers\ImageListController::class, "show"]
 )->name("image_list");
+
+Route::get('/graph', [WeightGraphController::class,"show"])
+   ->name("show_graph");
